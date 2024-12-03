@@ -1,0 +1,31 @@
+/* Global theme variables for consistent styling across the app */
+:root {
+  --primary-color: #4caf50; /* Green for primary actions */
+  --secondary-color: #f9f9f9; /* Light gray background */
+  --text-color: #333; /* Dark gray text */
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+  --border-radius: 12px; /* Rounded corners */
+  --button-radius: 8px; /* Rounded buttons */
+  --input-padding: 15px;
+  --font-family: 'Arial', sans-serif;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .login-card, .register-card, .patient-content, .admin-content {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .form-footer, .section-title {
+    font-size: 14px;
+  }
+
+  .primary-button {
+    font-size: 14px;
+  }
+}

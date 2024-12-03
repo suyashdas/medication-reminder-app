@@ -1,0 +1,37 @@
+/* Patient Page Styles */
+.patient-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .medicine-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: var(--border-radius);
+    background-color: white;
+    box-shadow: var(--card-shadow);
+  }
+  
+  .mark-button {
+    --background: var(--primary-color);
+    --color: white;
+    border-radius: var(--button-radius);
+    padding: 8px 20px;
+  }
+  
+  .mark-button:hover {
+    --background: #45a049;
+  }
+  
